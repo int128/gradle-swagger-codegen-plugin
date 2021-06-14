@@ -2,45 +2,45 @@
 %> Task :ui-v2:basic:generateSwaggerUI
  NO-SOURCE
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 1 actionable task: 1 executed
 -> Task :ui-v2:basic:generateSwaggerUIPetstore UP-TO-DATE
 %> Task :ui-v2:basic:generateSwaggerUI
  NO-SOURCE
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL	 in 775ms
 1 actionable task: 1 up-to-date
 2> Task :redoc:custom-options:generateReDocPetstore
 *> Task :redoc:custom-options:generateReDoc
  NO-SOURCE
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL	 in 600ms
 1 actionable task: 1 executed
 2> Task :redoc:custom-options:generateReDocPetstore UP-TO-DATE
 *> Task :redoc:custom-options:generateReDoc
  NO-SOURCE
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL	 in 706ms
 1 actionable task: 1 up-to-date
 )> Task :redoc:basic:generateReDocPetstore
 !> Task :redoc:basic:generateReDoc
  NO-SOURCE
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL	 in 444ms
 1 actionable task: 1 executed
 )> Task :redoc:basic:generateReDocPetstore UP-TO-DATE
 !> Task :redoc:basic:generateReDoc
  NO-SOURCE
 
-BUILD SUCCESSFUL	 in 959ms
+BUILD SUCCESSFUL	 in 483ms
 1 actionable task: 1 up-to-date
 )> Task :validator:validateSwaggerPetstore
 
-BUILD SUCCESSFUL in 1s
+BUILD SUCCESSFUL	 in 842ms
 1 actionable task: 1 executed
 )> Task :validator:validateSwaggerPetstore UP-TO-DATE
 
-BUILD SUCCESSFUL	 in 838ms
+BUILD SUCCESSFUL	 in 445ms
 1 actionable task: 1 up-to-date
 	0> Task :validator:validateSwaggerInvalidPetstore	 FAILED	
 	
@@ -691,7 +691,7 @@
 	
 	* Get more help at 	https://help.gradle.org	
 	
-	BUILD FAILED		 in 933ms	
+	BUILD FAILED		 in 829ms	
 	1 actionable task: 1 executed	
 
 ,> Task :blank-project:resolveSwaggerTemplate
@@ -707,19 +707,19 @@
 
 
 BUILD SUCCESSFUL
-	 in 803ms
+	 in 694ms
 
 -> Task :blank-project:generateSwaggerCodeHelp SKIPPED
 
-BUILD SUCCESSFUL	 in 771ms
+BUILD SUCCESSFUL	 in 525ms
 '> Task :blank-project:generateSwaggerUI
  NO-SOURCE
 
-BUILD SUCCESSFUL	 in 997ms
+BUILD SUCCESSFUL	 in 720ms
 %> Task :blank-project:validateSwagger
  NO-SOURCE
 
-BUILD SUCCESSFUL	 in 715ms
+BUILD SUCCESSFUL	 in 480ms
 6> Task :codegen-v2:custom-class:resolveSwaggerTemplate
  NO-SOURCE
 6> Task :codegen-v2:custom-class:generators:compileJava
@@ -756,7 +756,7 @@
 3> Task :codegen-v2:custom-class:generateSwaggerCode
  NO-SOURCE
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 6s
 3 actionable tasks: 3 executed
 > Task :prepareTemplates
 9> Task :codegen-v2:custom-template:resolveSwaggerTemplate
@@ -783,7 +783,7 @@
 6> Task :codegen-v2:custom-template:generateSwaggerCode
  NO-SOURCE
 
-BUILD SUCCESSFUL in 4s
+BUILD SUCCESSFUL in 3s
 2 actionable tasks: 2 executed
 
 B> Task :codegen-v2:custom-template:generateSwaggerCodePetstoreHelp
@@ -982,7 +982,7 @@
 *	    artifact version in generated pom.xml
 
 
-BUILD SUCCESSFUL in 2s
+BUILD SUCCESSFUL in 1s
 1 actionable task: 1 executed
 
 )> Task :codegen-v2:multiple-sources:tasks
@@ -1051,7 +1051,7 @@ propertiesE - Displays the properties of project ':codegen-v2:multiple-source
 
 %To see more detail about a task, run gradle help --task <task>
 
-BUILD SUCCESSFUL	 in 899ms
+BUILD SUCCESSFUL	 in 723ms
 1 actionable task: 1 executed
 :> Task :codegen-v2:multiple-sources:resolveSwaggerTemplate
  NO-SOURCE
@@ -1095,7 +1095,7 @@ propertiesE - Displays the properties of project ':codegen-v2:multiple-source
 7> Task :codegen-v2:multiple-sources:generateSwaggerCode
  NO-SOURCE
 
-BUILD SUCCESSFUL in 3s
+BUILD SUCCESSFUL in 2s
 2 actionable tasks: 2 executed
 :> Task :codegen-v2:multiple-sources:resolveSwaggerTemplate
  NO-SOURCE
@@ -1104,7 +1104,7 @@ propertiesE - Displays the properties of project ':codegen-v2:multiple-source
 7> Task :codegen-v2:multiple-sources:generateSwaggerCode
  NO-SOURCE
 
-BUILD SUCCESSFUL	 in 694ms
+BUILD SUCCESSFUL	 in 468ms
  2 actionable tasks: 2 up-to-date
 
 E> Task :codegen-v2:multiple-sources:generateSwaggerCodePetstoreV1Help
@@ -1783,7 +1783,7 @@ properties@ - Displays the properties of project ':codegen-v2:java-spring'.
 
 %To see more detail about a task, run gradle help --task <task>
 
-BUILD SUCCESSFUL	 in 895ms
+BUILD SUCCESSFUL	 in 674ms
 1 actionable task: 1 executed
 5> Task :codegen-v2:java-spring:resolveSwaggerTemplate
  NO-SOURCE
@@ -1819,7 +1819,7 @@ properties@ - Displays the properties of project ':codegen-v2:java-spring'.
 2> Task :codegen-v2:java-spring:generateSwaggerCode
  NO-SOURCE
 
-BUILD SUCCESSFUL	 in 670ms
+BUILD SUCCESSFUL	 in 614ms
  2 actionable tasks: 2 up-to-date
 5> Task :codegen-v2:java-spring:resolveSwaggerTemplate
  NO-SOURCE
@@ -1859,7 +1859,7 @@ properties@ - Displays the properties of project ':codegen-v2:java-spring'.
 $> Task :codegen-v2:java-spring:check UP-TO-DATE
 $> Task :codegen-v2:java-spring:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 9s
 4 actionable tasks: 4 executed
 
 >> Task :codegen-v2:java-spring:generateSwaggerCodePetstoreHelp
@@ -2163,7 +2163,7 @@ properties@ - Displays the properties of project ':codegen-v2:java-spring'.
 \	        spring-cloud - Spring-Cloud-Feign client with Spring-Boot auto-configured settings.
 
 
-BUILD SUCCESSFUL in 2s
+BUILD SUCCESSFUL in 1s
 1 actionable task: 1 executed
 
 > Task :codegen-v2:html:tasks
@@ -2227,7 +2227,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 
 %To see more detail about a task, run gradle help --task <task>
 
-BUILD SUCCESSFUL	 in 658ms
+BUILD SUCCESSFUL	 in 491ms
 1 actionable task: 1 executed
  .> Task :codegen-v2:html:resolveSwaggerTemplate 
  NO-SOURCE 
@@ -2254,7 +2254,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
  +> Task :codegen-v2:html:generateSwaggerCode 
  NO-SOURCE 
  
- BUILD SUCCESSFUL  in 2s 
+ BUILD SUCCESSFUL  in 1s 
  1 actionable task: 1 executed 
  .> Task :codegen-v2:html:resolveSwaggerTemplate 
  NO-SOURCE 
@@ -2262,7 +2262,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
  +> Task :codegen-v2:html:generateSwaggerCode 
  NO-SOURCE 
  
- BUILD SUCCESSFUL 	 in 629ms 
+ BUILD SUCCESSFUL 	 in 539ms 
  1 actionable task: 1 up-to-date 
 !
 !7> Task :codegen-v2:html:generateSwaggerCodePetstoreHelp!
@@ -2473,7 +2473,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 !*	    artifact version in generated pom.xml!
 !
 !
-!BUILD SUCCESSFUL! in 2s!
+!BUILD SUCCESSFUL! in 1s!
 !1 actionable task: 1 executed!
 #";> Task :codegen-v2:externalize-class:generators:compileJava#"
  NO-SOURCE#"
@@ -2531,7 +2531,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 %$Y> Task :codegen-v2:externalize-template:templates:publishMavenJavaPublicationToMavenLocal%$
 %$E> Task :codegen-v2:externalize-template:templates:publishToMavenLocal%$
 %$
-%$BUILD SUCCESSFUL%$ in 1s%$
+%$BUILD SUCCESSFUL%$	 in 703ms%$
 %$,6 actionable tasks: 5 executed, 1 up-to-date%$
 %$>> Task :codegen-v2:externalize-template:resolveSwaggerTemplate%$
 %$
@@ -2556,7 +2556,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 %$;> Task :codegen-v2:externalize-template:generateSwaggerCode%$
  NO-SOURCE%$
 %$
-%$BUILD SUCCESSFUL%$ in 2s%$
+%$BUILD SUCCESSFUL%$ in 1s%$
 %$2 actionable tasks: 2 executed%$
 '&6> Task :openapi-v3:custom-class:resolveSwaggerTemplate'&
  NO-SOURCE'&
@@ -2588,7 +2588,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 '&3> Task :openapi-v3:custom-class:generateSwaggerCode'&
  NO-SOURCE'&
 '&
-'&BUILD SUCCESSFUL'& in 7s'&
+'&BUILD SUCCESSFUL'& in 5s'&
 '&3 actionable tasks: 3 executed'&
 )(> Task :prepareTemplates)( UP-TO-DATE)(
 )(9> Task :openapi-v3:custom-template:resolveSwaggerTemplate)(
@@ -2604,7 +2604,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 )(6> Task :openapi-v3:custom-template:generateSwaggerCode)(
  NO-SOURCE)(
 )(
-)(BUILD SUCCESSFUL)( in 2s)(
+)(BUILD SUCCESSFUL)( in 1s)(
 )(,2 actionable tasks: 1 executed, 1 up-to-date)(
 )*
 )*B> Task :openapi-v3:custom-template:generateSwaggerCodePetstoreHelp)*
@@ -2824,7 +2824,7 @@ properties9 - Displays the properties of project ':codegen-v2:html'.
 )**	    artifact version in generated pom.xml)*
 )*
 )*
-)*BUILD SUCCESSFUL)* in 2s)*
+)*BUILD SUCCESSFUL)* in 1s)*
 )*1 actionable task: 1 executed)*
 ,+
 ,+)> Task :openapi-v3:multiple-sources:tasks,+
@@ -2893,7 +2893,7 @@ properties,+E - Displays the properties of project ':openapi-v3:multiple-source
 ,+
 ,+%To see more detail about a task, run ,+gradle,+ ,+help --task <task>,+
 ,+
-,+BUILD SUCCESSFUL,+	 in 561ms,+
+,+BUILD SUCCESSFUL,+	 in 424ms,+
 ,+1 actionable task: 1 executed,+
 ,-:> Task :openapi-v3:multiple-sources:resolveSwaggerTemplate,-
  NO-SOURCE,-
@@ -2949,7 +2949,7 @@ properties,+E - Displays the properties of project ':openapi-v3:multiple-source
 ,-7> Task :openapi-v3:multiple-sources:generateSwaggerCode,-
  NO-SOURCE,-
 ,-
-,-BUILD SUCCESSFUL,- in 4s,-
+,-BUILD SUCCESSFUL,- in 3s,-
 ,-2 actionable tasks: 2 executed,-
 ,-:> Task :openapi-v3:multiple-sources:resolveSwaggerTemplate,-
  NO-SOURCE,-
@@ -2958,7 +2958,7 @@ properties,+E - Displays the properties of project ':openapi-v3:multiple-source
 ,-7> Task :openapi-v3:multiple-sources:generateSwaggerCode,-
  NO-SOURCE,-
 ,-
-,-BUILD SUCCESSFUL,- in 2s,-
+,-BUILD SUCCESSFUL,- in 1s,-
 ,- 2 actionable tasks: 2 up-to-date,-
 ,.
 ,.E> Task :openapi-v3:multiple-sources:generateSwaggerCodePetstoreV1Help,.
@@ -3739,7 +3739,7 @@ properties10@ - Displays the properties of project ':openapi-v3:java-spring'.1
 10
 10%To see more detail about a task, run 10gradle10 10help --task <task>10
 10
-10BUILD SUCCESSFUL10	 in 848ms10
+10BUILD SUCCESSFUL10	 in 543ms10
 101 actionable task: 1 executed10
 125> Task :openapi-v3:java-spring:resolveSwaggerTemplate12
  NO-SOURCE12
@@ -3771,7 +3771,7 @@ properties10@ - Displays the properties of project ':openapi-v3:java-spring'.1
 122> Task :openapi-v3:java-spring:generateSwaggerCode12
  NO-SOURCE12
 12
-12BUILD SUCCESSFUL12 in 2s12
+12BUILD SUCCESSFUL12 in 1s12
 121 actionable task: 1 executed12
 125> Task :openapi-v3:java-spring:resolveSwaggerTemplate12
  NO-SOURCE12
@@ -3779,7 +3779,7 @@ properties10@ - Displays the properties of project ':openapi-v3:java-spring'.1
 122> Task :openapi-v3:java-spring:generateSwaggerCode12
  NO-SOURCE12
 12
-12BUILD SUCCESSFUL12	 in 529ms12
+12BUILD SUCCESSFUL12	 in 435ms12
 121 actionable task: 1 up-to-date12
 135> Task :openapi-v3:java-spring:resolveSwaggerTemplate13
  NO-SOURCE13
@@ -3826,7 +3826,7 @@ properties10@ - Displays the properties of project ':openapi-v3:java-spring'.1
 13$> Task :openapi-v3:java-spring:check13 UP-TO-DATE13
 13$> Task :openapi-v3:java-spring:build13
 13
-13BUILD SUCCESSFUL13 in 5s13
+13BUILD SUCCESSFUL13 in 4s13
 134 actionable tasks: 4 executed13
 14
 14>> Task :openapi-v3:java-spring:generateSwaggerCodePetstoreHelp14
@@ -4181,7 +4181,7 @@ properties10@ - Displays the properties of project ':openapi-v3:java-spring'.1
 14\	        spring-cloud - Spring-Cloud-Feign client with Spring-Boot auto-configured settings.14
 14
 14
-14BUILD SUCCESSFUL14 in 2s14
+14BUILD SUCCESSFUL14 in 1s14
 141 actionable task: 1 executed14
 65
 652> Task :openapi-v3:multiple-codegen-versions:tasks65
@@ -4250,7 +4250,7 @@ properties65N - Displays the properties of project ':openapi-v3:multiple-codege
 65
 65%To see more detail about a task, run 65gradle65 65help --task <task>65
 65
-65BUILD SUCCESSFUL65	 in 522ms65
+65BUILD SUCCESSFUL65	 in 422ms65
 651 actionable task: 1 executed65
 67C> Task :openapi-v3:multiple-codegen-versions:resolveSwaggerTemplate67
  NO-SOURCE67
@@ -4297,7 +4297,7 @@ properties65N - Displays the properties of project ':openapi-v3:multiple-codege
 67@> Task :openapi-v3:multiple-codegen-versions:generateSwaggerCode67
  NO-SOURCE67
 67
-67BUILD SUCCESSFUL67	 in 606ms67
+67BUILD SUCCESSFUL67	 in 375ms67
 67 2 actionable tasks: 2 up-to-date67
 98
 98> Task :openapi-v3:html:tasks98
@@ -4361,7 +4361,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 98
 98%To see more detail about a task, run 98gradle98 98help --task <task>98
 98
-98BUILD SUCCESSFUL98	 in 809ms98
+98BUILD SUCCESSFUL98	 in 357ms98
 981 actionable task: 1 executed98
 9:.> Task :openapi-v3:html:resolveSwaggerTemplate9:
  NO-SOURCE9:
@@ -4378,7 +4378,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 9:+> Task :openapi-v3:html:generateSwaggerCode9:
  NO-SOURCE9:
 9:
-9:BUILD SUCCESSFUL9: in 2s9:
+9:BUILD SUCCESSFUL9: in 1s9:
 9:1 actionable task: 1 executed9:
 9:.> Task :openapi-v3:html:resolveSwaggerTemplate9:
  NO-SOURCE9:
@@ -4386,7 +4386,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 9:+> Task :openapi-v3:html:generateSwaggerCode9:
  NO-SOURCE9:
 9:
-9:BUILD SUCCESSFUL9:	 in 689ms9:
+9:BUILD SUCCESSFUL9:	 in 427ms9:
 9:1 actionable task: 1 up-to-date9:
 9;
 9;7> Task :openapi-v3:html:generateSwaggerCodePetstoreHelp9;
@@ -4618,7 +4618,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 9;*	    artifact version in generated pom.xml9;
 9;
 9;
-9;BUILD SUCCESSFUL9; in 2s9;
+9;BUILD SUCCESSFUL9; in 1s9;
 9;1 actionable task: 1 executed9;
 =<;> Task :openapi-v3:externalize-class:generators:compileJava=<
  NO-SOURCE=<
@@ -4657,7 +4657,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 =<8> Task :openapi-v3:externalize-class:generateSwaggerCode=<
  NO-SOURCE=<
 =<
-=<BUILD SUCCESSFUL=< in 2s=<
+=<BUILD SUCCESSFUL=< in 1s=<
 =<1 actionable task: 1 executed=<
 ?>=> Task :openapi-v3:externalize-template:templates:compileJava?>
  NO-SOURCE?>
@@ -4670,7 +4670,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 ?>Y> Task :openapi-v3:externalize-template:templates:publishMavenJavaPublicationToMavenLocal?>
 ?>E> Task :openapi-v3:externalize-template:templates:publishToMavenLocal?>
 ?>
-?>BUILD SUCCESSFUL?> in 1s?>
+?>BUILD SUCCESSFUL?>	 in 690ms?>
 ?>,6 actionable tasks: 5 executed, 1 up-to-date?>
 ?>>> Task :openapi-v3:externalize-template:resolveSwaggerTemplate?>
 ?>
@@ -4684,7 +4684,7 @@ properties989 - Displays the properties of project ':openapi-v3:html'.98
 ?>;> Task :openapi-v3:externalize-template:generateSwaggerCode?>
  NO-SOURCE?>
 ?>
-?>BUILD SUCCESSFUL?> in 2s?>
+?>BUILD SUCCESSFUL?> in 1s?>
 ?>2 actionable tasks: 2 executed?>
 A@
 A@$> Task :ui-v3:multiple-sources:tasksA@
@@ -4753,7 +4753,7 @@ propertiesA@@ - Displays the properties of project ':ui-v3:multiple-sources'.A
 A@
 A@%To see more detail about a task, run A@gradleA@ A@help --task <task>A@
 A@
-A@BUILD SUCCESSFULA@	 in 790msA@
+A@BUILD SUCCESSFULA@	 in 496msA@
 A@1 actionable task: 1 executedA@
 AB:> Task :ui-v3:multiple-sources:generateSwaggerUIPetstoreV2AB
 AB:> Task :ui-v3:multiple-sources:generateSwaggerUIPetstoreV3AB
@@ -4767,19 +4767,19 @@ propertiesA@@ - Displays the properties of project ':ui-v3:multiple-sources'.A
 AB0> Task :ui-v3:multiple-sources:generateSwaggerUIAB
  NO-SOURCEAB
 AB
-ABBUILD SUCCESSFULAB	 in 606msAB
+ABBUILD SUCCESSFULAB	 in 443msAB
 AB 2 actionable tasks: 2 up-to-dateAB
 DC-> Task :ui-v3:basic:generateSwaggerUIPetstoreDC
 DC%> Task :ui-v3:basic:generateSwaggerUIDC
  NO-SOURCEDC
 DC
-DCBUILD SUCCESSFULDC in 1sDC
+DCBUILD SUCCESSFULDC	 in 718msDC
 DC1 actionable task: 1 executedDC
 DC-> Task :ui-v3:basic:generateSwaggerUIPetstoreDC UP-TO-DATEDC
 DC%> Task :ui-v3:basic:generateSwaggerUIDC
  NO-SOURCEDC
 DC
-DCBUILD SUCCESSFULDC	 in 664msDC
+DCBUILD SUCCESSFULDC	 in 484msDC
 DC1 actionable task: 1 up-to-dateDC
 FE6> Task :codegen-v3:custom-class:resolveSwaggerTemplateFE
  NO-SOURCEFE
@@ -4797,13 +4797,13 @@ propertiesA@@ - Displays the properties of project ':ui-v3:multiple-sources'.A
 FEhWARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClassFE
 FEeWARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operationsFE
 FEIWARNING: All illegal access operations will be denied in a future releaseFE
-FEp09:27:25.935 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectFE
-FEp09:27:25.975 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectFE
+FEp10:35:58.418 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectFE
+FEp10:35:58.436 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectFE
 FE
 FE3> Task :codegen-v3:custom-class:generateSwaggerCodeFE
  NO-SOURCEFE
 FE
-FEBUILD SUCCESSFULFE in 7sFE
+FEBUILD SUCCESSFULFE in 4sFE
 FE3 actionable tasks: 3 executedFE
 HG> Task :prepareTemplatesHG UP-TO-DATEHG
 HG9> Task :codegen-v3:custom-template:resolveSwaggerTemplateHG
@@ -4874,7 +4874,7 @@ propertiesA@@ - Displays the properties of project ':ui-v3:multiple-sources'.A
 HI*	    artifact version in generated pom.xmlHI
 HI
 HI
-HIBUILD SUCCESSFULHI in 2sHI
+HIBUILD SUCCESSFULHI in 1sHI
 HI1 actionable task: 1 executedHI
 KJ
 KJ)> Task :codegen-v3:multiple-sources:tasksKJ
@@ -4943,14 +4943,14 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KJ
 KJ%To see more detail about a task, run KJgradleKJ KJhelp --task <task>KJ
 KJ
-KJBUILD SUCCESSFULKJ	 in 605msKJ
+KJBUILD SUCCESSFULKJ	 in 405msKJ
 KJ1 actionable task: 1 executedKJ
 KL:> Task :codegen-v3:multiple-sources:resolveSwaggerTemplateKL
  NO-SOURCEKL
 KL
 KLA> Task :codegen-v3:multiple-sources:generateSwaggerCodePetstoreV1KL
-KLp09:27:34.633 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
-KLp09:27:34.679 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
+KLp10:36:05.118 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
+KLp10:36:05.142 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
 KL<WARNING: An illegal reflective access operation has occurredKL
 KLÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()KL
 KLvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverKL
@@ -4958,8 +4958,8 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KLIWARNING: All illegal access operations will be denied in a future releaseKL
 KL
 KLA> Task :codegen-v3:multiple-sources:generateSwaggerCodePetstoreV2KL
-KLp09:27:36.161 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
-KLp09:27:36.184 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
+KLp10:36:06.393 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
+KLp10:36:06.411 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectKL
 KL<WARNING: An illegal reflective access operation has occurredKL
 KLÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()KL
 KLvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverKL
@@ -4969,7 +4969,7 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KL7> Task :codegen-v3:multiple-sources:generateSwaggerCodeKL
  NO-SOURCEKL
 KL
-KLBUILD SUCCESSFULKL in 4sKL
+KLBUILD SUCCESSFULKL in 3sKL
 KL2 actionable tasks: 2 executedKL
 KL:> Task :codegen-v3:multiple-sources:resolveSwaggerTemplateKL
  NO-SOURCEKL
@@ -4978,7 +4978,7 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KL7> Task :codegen-v3:multiple-sources:generateSwaggerCodeKL
  NO-SOURCEKL
 KL
-KLBUILD SUCCESSFULKL	 in 559msKL
+KLBUILD SUCCESSFULKL	 in 429msKL
 KL 2 actionable tasks: 2 up-to-dateKL
 KM
 KME> Task :codegen-v3:multiple-sources:generateSwaggerCodePetstoreV1HelpKM
@@ -5138,7 +5138,7 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KM\	        spring-cloud - Spring-Cloud-Feign client with Spring-Boot auto-configured settings.KM
 KM
 KM
-KMBUILD SUCCESSFULKM in 2sKM
+KMBUILD SUCCESSFULKM in 1sKM
 KM1 actionable task: 1 executedKM
 KN
 KNE> Task :codegen-v3:multiple-sources:generateSwaggerCodePetstoreV2HelpKN
@@ -5298,7 +5298,7 @@ propertiesKJE - Displays the properties of project ':codegen-v3:multiple-source
 KN\	        spring-cloud - Spring-Cloud-Feign client with Spring-Boot auto-configured settings.KN
 KN
 KN
-KNBUILD SUCCESSFULKN in 2sKN
+KNBUILD SUCCESSFULKN in 1sKN
 KN1 actionable task: 1 executedKN
 PO
 PO$> Task :codegen-v3:java-spring:tasksPO
@@ -5369,14 +5369,14 @@ propertiesPO@ - Displays the properties of project ':codegen-v3:java-spring'.P
 PO
 PO%To see more detail about a task, run POgradlePO POhelp --task <task>PO
 PO
-POBUILD SUCCESSFULPO	 in 535msPO
+POBUILD SUCCESSFULPO	 in 443msPO
 PO1 actionable task: 1 executedPO
 PQ5> Task :codegen-v3:java-spring:resolveSwaggerTemplatePQ
  NO-SOURCEPQ
 PQ
 PQ:> Task :codegen-v3:java-spring:generateSwaggerCodePetstorePQ
-PQp09:27:45.209 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPQ
-PQp09:27:45.230 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPQ
+PQp10:36:13.715 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPQ
+PQp10:36:13.736 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPQ
 PQ<WARNING: An illegal reflective access operation has occurredPQ
 PQÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()PQ
 PQvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverPQ
@@ -5394,14 +5394,14 @@ propertiesPO@ - Displays the properties of project ':codegen-v3:java-spring'.P
 PQ2> Task :codegen-v3:java-spring:generateSwaggerCodePQ
  NO-SOURCEPQ
 PQ
-PQBUILD SUCCESSFULPQ	 in 501msPQ
+PQBUILD SUCCESSFULPQ	 in 361msPQ
 PQ1 actionable task: 1 up-to-datePQ
 PR5> Task :codegen-v3:java-spring:resolveSwaggerTemplatePR
  NO-SOURCEPR
 PR
 PR:> Task :codegen-v3:java-spring:generateSwaggerCodePetstorePR
-PRp09:27:48.358 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPR
-PRp09:27:48.381 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPR
+PRp10:36:16.142 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPR
+PRp10:36:16.159 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectPR
 PR<WARNING: An illegal reflective access operation has occurredPR
 PRÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()PR
 PRvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverPR
@@ -5653,7 +5653,7 @@ propertiesUTN - Displays the properties of project ':codegen-v3:multiple-codege
 UT
 UT%To see more detail about a task, run UTgradleUT UThelp --task <task>UT
 UT
-UTBUILD SUCCESSFULUT	 in 530msUT
+UTBUILD SUCCESSFULUT	 in 450msUT
 UT1 actionable task: 1 executedUT
 UVC> Task :codegen-v3:multiple-codegen-versions:resolveSwaggerTemplateUV
  NO-SOURCEUV
@@ -5677,8 +5677,8 @@ propertiesUTN - Displays the properties of project ':codegen-v3:multiple-codege
 UV	... 10 moreUV
 UV
 UVJ> Task :codegen-v3:multiple-codegen-versions:generateSwaggerCodePetstoreV3UV
-UVp09:27:56.492 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectUV
-UVp09:27:56.515 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectUV
+UVp10:36:22.638 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectUV
+UVp10:36:22.667 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to ObjectUV
 UV<WARNING: An illegal reflective access operation has occurredUV
 UVÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()UV
 UVvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverUV
@@ -5688,7 +5688,7 @@ propertiesUTN - Displays the properties of project ':codegen-v3:multiple-codege
 UV@> Task :codegen-v3:multiple-codegen-versions:generateSwaggerCodeUV
  NO-SOURCEUV
 UV
-UVBUILD SUCCESSFULUV in 4sUV
+UVBUILD SUCCESSFULUV in 3sUV
 UV2 actionable tasks: 2 executedUV
 UVC> Task :codegen-v3:multiple-codegen-versions:resolveSwaggerTemplateUV
  NO-SOURCEUV
@@ -5697,7 +5697,7 @@ propertiesUTN - Displays the properties of project ':codegen-v3:multiple-codege
 UV@> Task :codegen-v3:multiple-codegen-versions:generateSwaggerCodeUV
  NO-SOURCEUV
 UV
-UVBUILD SUCCESSFULUV	 in 497msUV
+UVBUILD SUCCESSFULUV	 in 435msUV
 UV 2 actionable tasks: 2 up-to-dateUV
 XW
 XW> Task :codegen-v3:html:tasksXW
@@ -5761,13 +5761,13 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 XW
 XW%To see more detail about a task, run XWgradleXW XWhelp --task <task>XW
 XW
-XWBUILD SUCCESSFULXW	 in 441msXW
+XWBUILD SUCCESSFULXW	 in 417msXW
 XW1 actionable task: 1 executedXW
 XY.> Task :codegen-v3:html:resolveSwaggerTemplateXY
  NO-SOURCEXY
 XY
 XY3> Task :codegen-v3:html:generateSwaggerCodePetstoreXY
-XY‡09:27:59.547 [Thread-0] ERROR i.s.c.v.g.html.StaticHtml2Codegen - Swagger object description is empty [Swagger Petstore v3 (OpenAPI 3)]XY
+XY‡10:36:25.174 [Thread-0] ERROR i.s.c.v.g.html.StaticHtml2Codegen - Swagger object description is empty [Swagger Petstore v3 (OpenAPI 3)]XY
 XY<WARNING: An illegal reflective access operation has occurredXY
 XYÇWARNING: Illegal reflective access by com.github.jknack.handlebars.context.MemberValueResolver (file:/tmp/.gradle-test-kit-runner/caches/modules-2/files-2.1/io.swagger.codegen.v3/swagger-codegen-cli/3.0.5/c2a511b0fd7a97b69a4fd308790afe3bbd9de6d7/swagger-codegen-cli-3.0.5.jar) to method java.util.Collections$EmptyMap.isEmpty()XY
 XYvWARNING: Please consider reporting this to the maintainers of com.github.jknack.handlebars.context.MemberValueResolverXY
@@ -5777,7 +5777,7 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 XY+> Task :codegen-v3:html:generateSwaggerCodeXY
  NO-SOURCEXY
 XY
-XYBUILD SUCCESSFULXY in 3sXY
+XYBUILD SUCCESSFULXY in 2sXY
 XY1 actionable task: 1 executedXY
 XY.> Task :codegen-v3:html:resolveSwaggerTemplateXY
  NO-SOURCEXY
@@ -5785,7 +5785,7 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 XY+> Task :codegen-v3:html:generateSwaggerCodeXY
  NO-SOURCEXY
 XY
-XYBUILD SUCCESSFULXY	 in 428msXY
+XYBUILD SUCCESSFULXY	 in 321msXY
 XY1 actionable task: 1 up-to-dateXY
 XZ
 XZ7> Task :codegen-v3:html:generateSwaggerCodePetstoreHelpXZ
@@ -5852,7 +5852,7 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 XZ*	    artifact version in generated pom.xmlXZ
 XZ
 XZ
-XZBUILD SUCCESSFULXZ in 2sXZ
+XZBUILD SUCCESSFULXZ in 1sXZ
 XZ1 actionable task: 1 executedXZ
 \[;> Task :codegen-v3:externalize-class:generators:compileJava\[
  NO-SOURCE\[
@@ -5866,7 +5866,7 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 \[W> Task :codegen-v3:externalize-class:generators:publishMavenJavaPublicationToMavenLocal\[
 \[C> Task :codegen-v3:externalize-class:generators:publishToMavenLocal\[
 \[
-\[BUILD SUCCESSFUL\[ in 2s\[
+\[BUILD SUCCESSFUL\[ in 1s\[
 \[5 actionable tasks: 5 executed\[
 \[;> Task :codegen-v3:externalize-class:resolveSwaggerTemplate\[
  NO-SOURCE\[
@@ -5877,13 +5877,13 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 \[hWARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass\[
 \[eWARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations\[
 \[IWARNING: All illegal access operations will be denied in a future release\[
-\[p09:28:08.957 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to Object\[
-\[p09:28:08.981 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to Object\[
+\[p10:36:32.334 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to Object\[
+\[p10:36:32.361 [Thread-0] WARN  i.s.c.v.g.DefaultCodegenConfig - String to be sanitized is null. Default to Object\[
 \[
 \[8> Task :codegen-v3:externalize-class:generateSwaggerCode\[
  NO-SOURCE\[
 \[
-\[BUILD SUCCESSFUL\[ in 2s\[
+\[BUILD SUCCESSFUL\[ in 1s\[
 \[1 actionable task: 1 executed\[
 ^]=> Task :codegen-v3:externalize-template:templates:compileJava^]
  NO-SOURCE^]
@@ -5896,7 +5896,7 @@ propertiesXW9 - Displays the properties of project ':codegen-v3:html'.XW
 ^]Y> Task :codegen-v3:externalize-template:templates:publishMavenJavaPublicationToMavenLocal^]
 ^]E> Task :codegen-v3:externalize-template:templates:publishToMavenLocal^]
 ^]
-^]BUILD SUCCESSFUL^]	 in 692ms^]
+^]BUILD SUCCESSFUL^]	 in 474ms^]
 ^],6 actionable tasks: 5 executed, 1 up-to-date^]
 ^]>> Task :codegen-v3:externalize-template:resolveSwaggerTemplate^]
 ^]
